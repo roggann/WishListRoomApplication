@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             WishListRoomApplicationTheme {
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    HomeView()
+                    Navigation()
                 }
             }
         }
